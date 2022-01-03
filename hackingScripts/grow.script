@@ -1,0 +1,4 @@
+var server = args[0];
+var res = grow(server);
+tryWritePort(args[1], 'Grew ' + server + ' by ' + ((res-1)*100) + '%. current security: '
+	+ getServerSecurityLevel(server) + ' current money ' + getServerMoneyAvailable(server))
