@@ -1,0 +1,3 @@
+var server = args[0];
+var res = weaken(server);
+tryWritePort(args[1], 'Weakened ' + server + ' by ' + res + '. current security: ' + getServerSecurityLevel(server))
