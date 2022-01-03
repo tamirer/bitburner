@@ -1,0 +1,4 @@
+var server = args[0];
+var res = hack(server);
+tryWritePort(args[1], 'Hacked ' + server + ' for ' + res + '$. current security: '
+	+ getServerSecurityLevel(server) + ' current money ' + getServerMoneyAvailable(server))
